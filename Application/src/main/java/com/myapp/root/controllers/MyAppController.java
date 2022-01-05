@@ -10,5 +10,15 @@ public class MyAppController {
     public String index() {
         return "index.html";
     }
+
+    @RequestMapping("/hello")
+    public String hello() {
+        return "hello end point is triggered";
+    }
+
+    @RequestMapping("/login")
+    public String login() {
+        return "login end point is triggered";
+    }
     
 }
