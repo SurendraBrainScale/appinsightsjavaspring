@@ -2,6 +2,7 @@ package com.myapp.root.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class MyAppController {
@@ -11,12 +12,12 @@ public class MyAppController {
         return "index.html";
     }
 
-    @RequestMapping("/hello")
+    @GetMapping("/hello")
     public String hello() {
         return "hello end point is triggered";
     }
 
-    @RequestMapping("/login")
+    @GetMapping("/login")
     public String login() {
         return "login end point is triggered";
     }

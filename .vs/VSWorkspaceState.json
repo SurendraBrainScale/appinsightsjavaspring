@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Application",
+    "\\Application\\src",
+    "\\Application\\src\\main",
+    "\\Application\\src\\main\\java",
+    "\\Application\\src\\main\\java\\com",
+    "\\Application\\src\\main\\java\\com\\myapp",
+    "\\Application\\src\\main\\java\\com\\myapp\\root",
+    "\\Application\\src\\main\\resources",
+    "\\Application\\src\\main\\resources\\static"
+  ],
+  "PreviewInSolutionExplorer": false
+}
